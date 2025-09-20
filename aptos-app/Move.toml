@@ -1,0 +1,15 @@
+[package]
+name = "streampay"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x0d9542d01148bd99d6852da24d9fd8d48511629e44b1d00dcb6afb32ba72da76"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "devnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
